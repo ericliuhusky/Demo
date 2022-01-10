@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		345CF2FE276C71B1002F26F7 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CF2FD276C71B1002F26F7 /* DemoApp.swift */; };
-		345CF302276C71B2002F26F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345CF301276C71B2002F26F7 /* Assets.xcassets */; };
 		3494B6FD27731D470096E877 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494B6FC27731D470096E877 /* Demo.swift */; };
 		3494CBA127732C520096E877 /* DemoOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3494CBA027732C520096E877 /* DemoOC.m */; };
 		34B2EB6D278C3BFF009439AD /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B2EB6C278C3BFF009439AD /* DemoTests.swift */; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		345CF2FA276C71B1002F26F7 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345CF2FD276C71B1002F26F7 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
-		345CF301276C71B2002F26F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3494B6FC27731D470096E877 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		3494CB9F27732C510096E877 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		3494CBA027732C520096E877 /* DemoOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoOC.m; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				345CF2FD276C71B1002F26F7 /* DemoApp.swift */,
-				345CF301276C71B2002F26F7 /* Assets.xcassets */,
 				3494B6FC27731D470096E877 /* Demo.swift */,
 				3494CBA027732C520096E877 /* DemoOC.m */,
 				3494CB9F27732C510096E877 /* Demo-Bridging-Header.h */,
@@ -173,7 +170,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345CF302276C71B2002F26F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
