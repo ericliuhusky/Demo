@@ -17,12 +17,23 @@ struct DemoApp: App {
 }
 
 struct DemoView: UIViewRepresentable {
-    func makeUIView(context: Context) -> UIView {
+    func makeUIView(context: Context) -> some UIView {
         let view = UIView()
         return view
     }
     
-    func updateUIView(_ uiView: UIView, context: Context) {
+    func updateUIView(_ uiView: UIViewType, context: Context) {
+        
+    }
+}
+
+struct DemoViewController: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> some UIViewController {
+        let viewController = UIViewController()
+        return viewController
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
         
     }
 }
